@@ -1,6 +1,6 @@
 
 exports.min = function min (array) {
-  return Math.max.apply(null, array);
+  return Math.min.apply(null, array);
 }
 
 exports.max = function max (array) {
