@@ -8,5 +8,9 @@ exports.max = function max (array) {
 }
 
 exports.avg = function avg (array) {
-  return Math.mean.apply(null, array);
+  let x;
+  for (let i = 0; i < array.length; i++) {
+    x += array[i]
+  }
+  return (x / array.length);
 }
